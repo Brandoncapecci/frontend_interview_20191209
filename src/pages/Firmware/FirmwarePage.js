@@ -42,7 +42,7 @@ function FirmwarePage() {
     <div className="firmware-page">
       <h1>Firmware Page</h1>
       <button>Update Firmware</button>
-      <Table columns={columns} data={devices} />
+      <Table columns={columns} data={devices} onChecked={}/>
     </div>
   );
 }
